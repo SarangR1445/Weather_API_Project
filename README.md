@@ -42,4 +42,29 @@ A modern, responsive weather dashboard web app built with HTML, CSS, and JavaScr
 3. Open `index.html` in your browser to start using the weather dashboard.
 
 ## Project Structure
+weather-dashboard/
+├── index.html # Main HTML page
+├── style.css # Stylesheet for responsive design and animations
+├── script.js # JavaScript handling API calls, DOM updates, dynamic backgrounds
+├── README.md # Project description and setup instructions
+
+
+## Responsiveness
+
+- Includes media queries to provide an optimized experience on phones, tablets, and desktops.
+- Forecast sections wrap and resize for smaller screens.
+- Input and button sizes adjust for usability on touch devices.
+
+## Customization
+
+- Easily adjust background colors or add image backgrounds in the `bgThemes` object in `script.js`.
+- Modify CSS animations and styling by editing `style.css`.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Created with ❤️ for learning and practical web development experience. Feedback and contributions are welcome!
 
