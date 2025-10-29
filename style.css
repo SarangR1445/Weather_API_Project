@@ -154,11 +154,15 @@ body {
 .forecast-section {
   text-align: center;
   display: flex;
+  flex-direction: column;
   gap: 45px;
   justify-content: center;
   flex-wrap: wrap;
 }
 .todays-forecast, .weekly-forecast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: rgba(22, 33, 44, 0.69);
   border-radius: 18px;
   padding: 32px 28px;
