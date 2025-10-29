@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-content">
+        <h1>Weather API Project</h1>
+        <div class="search-bar">
+            <input type="text" id="city-search" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+        <section class="weather-today">
+            <h1 id="city-name">City</h1>
+            <div class="weather-main">
+                <div class="weather-temp" id="current-temp">--°</div>
+                <div class="weather-icon" id="main-icon"></div>
+            </div>
+            <div class="weather-desc" id="weather-desc">--</div>
+            <div class="air-conditions">
+                <div><span>Real Feel</span> <span id="real-feel">--</span></div>
+                <div><span>Chance of rain</span> <span id="rain-chance">--</span></div>
+                <div><span>Wind</span> <span id="wind">--</span></div>
+                <div><span>UV Index</span> <span id="uv-index">--</span></div>
+            </div>
+        </section>
+        <section class="forecast-section">
+            <div class="todays-forecast" id="hourly-forecast"></div>
+            <div class="weekly-forecast" id="weekly-forecast"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
