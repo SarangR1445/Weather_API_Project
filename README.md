@@ -42,11 +42,19 @@ A modern, responsive weather dashboard web app built with HTML, CSS, and JavaScr
 3. Open `index.html` in your browser to start using the weather dashboard.
 
 ## Project Structure
+Here is your "Project Structure" section with each file on a new line in Markdown. This format improves clarity and looks clean in a README file:
+
+```markdown
+## Project Structure
+
+```
 weather-dashboard/
-├── index.html # Main HTML page.
-├── style.css # Stylesheet for responsive design and animations.
-├── script.js # JavaScript handling API calls, DOM updates, dynamic backgrounds.
-├── README.md # Project description and setup instructions.
+├── index.html      # Main HTML page
+├── style.css       # Stylesheet for responsive design and animations
+├── script.js       # JavaScript handling API calls, DOM updates, dynamic backgrounds
+└── README.md       # Project description and setup instructions
+```
+```
 
 
 ## Responsiveness
