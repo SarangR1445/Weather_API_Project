@@ -1,5 +1,4 @@
 # Weather_API_Project
-# Weather Dashboard
 
 A modern, responsive weather dashboard web app built with HTML, CSS, and JavaScript. It uses the OpenWeatherMap API to fetch and display real-time weather updates, including current conditions, hourly forecasts, and a 7-day outlook for any city worldwide.
 
@@ -40,22 +39,6 @@ A modern, responsive weather dashboard web app built with HTML, CSS, and JavaScr
     ```
 
 3. Open `index.html` in your browser to start using the weather dashboard.
-
-## Project Structure
-Here is your "Project Structure" section with each file on a new line in Markdown. This format improves clarity and looks clean in a README file:
-
-```markdown
-## Project Structure
-
-```
-weather-dashboard/
-├── index.html      # Main HTML page
-├── style.css       # Stylesheet for responsive design and animations
-├── script.js       # JavaScript handling API calls, DOM updates, dynamic backgrounds
-└── README.md       # Project description and setup instructions
-```
-```
-
 
 ## Responsiveness
 
