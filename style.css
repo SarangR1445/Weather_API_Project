@@ -202,8 +202,89 @@ body {
   margin-top: 3px;
 }
 
+/* General responsive adjustments */
+
+/* Medium tablets and large phones in portrait */
 @media (max-width: 820px) {
-  .main-content { padding: 8px; }
-  .forecast-section { flex-direction: column; gap: 18px; }
-  .todays-forecast, .weekly-forecast { width: 96%; min-width: unset; }
+  .main-content {
+    padding: 12px 15px;
+    max-width: 100%;
+  }
+  #city-search {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  #search-btn {
+    font-size: 1.3rem;
+    padding: 10px 20px;
+  }
+  .forecast-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .todays-forecast, .weekly-forecast {
+    width: 100%;
+    min-width: unset;
+  }
+  .weather-temp {
+    font-size: 3.4rem;
+  }
+  #city-name {
+    font-size: 2rem;
+  }
+  .weather-desc {
+    font-size: 1.2rem;
+  }
+  .air-conditions div {
+    font-size: 1.1rem;
+    min-width: 90px;
+    padding: 12px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .main-content {
+    padding: 10px 12px;
+  }
+  #city-search {
+    font-size: 1.1rem;
+  }
+  #search-btn {
+    font-size: 1.15rem;
+    padding: 8px 16px;
+  }
+  .weather-temp {
+    font-size: 2.8rem;
+  }
+  #city-name {
+    font-size: 1.6rem;
+  }
+  .weather-desc {
+    font-size: 1rem;
+  }
+  .air-conditions {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .air-conditions div {
+    font-size: 1rem;
+    min-width: 80px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+  }
+  .todays-forecast, .weekly-forecast {
+    padding: 18px 10px;
+  }
+  .hourly-block, .daily-block {
+    font-size: 1rem;
+  }
+  .hourly-icon img, .daily-icon img {
+    width: 36px;
+    height: 36px;
+  }
+  .weather-icon img {
+    width: 75px;
+    height: 75px;
+  }
 }
