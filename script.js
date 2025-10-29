@@ -64,7 +64,7 @@ function renderCurrentWeather(data) {
 
 function renderForecast(data) {
   // Hourly forecast for next 6 timeslots
-  let hourlyHtml = "";
+  let hourlyHtml = "<h2>Hourly Weather</h2>";
   data.list.slice(0, 6).forEach(item => {
     const time = new Date(item.dt * 1000);
     hourlyHtml += `<div class="hourly-block">
@@ -82,7 +82,7 @@ function renderForecast(data) {
     if (!days[dateStr]) days[dateStr] = [];
     days[dateStr].push(item);
   });
-  let weeklyHtml = "";
+  let weeklyHtml = "<h2>Weekly Weather</h2>";
   Object.entries(days).slice(0,7).forEach(([date, entries]) => {
     // Use noon as daily temp/icon average
     const noon = entries[Math.floor(entries.length/2)];
