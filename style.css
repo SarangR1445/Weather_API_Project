@@ -152,6 +152,7 @@ body {
 }
 
 .forecast-section {
+  text-align: center;
   display: flex;
   gap: 45px;
   justify-content: center;
